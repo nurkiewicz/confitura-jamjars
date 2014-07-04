@@ -1,0 +1,11 @@
+build/
+
+.gradle/
+
+.nb-gradle/
+.nb-gradle-properties
+
+#Intellij Idea project files
+.idea
+*.iml
+
