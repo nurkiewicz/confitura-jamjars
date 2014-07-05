@@ -3,6 +3,8 @@ package pl.allegro.itm.confitura;
 import java.util.List;
 import java.util.stream.*;
 import java.util.*;
+import static java.util.stream.Collectors.*;
+import static java.util.Comparator.*;
 import com.google.common.collect.*;
 
 public class JamJars {
@@ -12,7 +14,7 @@ public class JamJars {
             .stream()
             .flatMap(s -> Lists.newArrayList(s).stream())
             .filter(Jar::isFresh)
-            .sorted(comparing(Jar::flavour).reversed())
+            .sorted(comparing(Jar::flavor).reversed())
             .collect(toList());
             
         return Lists.partition(jars, jarsInBox)
