@@ -20,6 +20,7 @@ Criteria:
 * code passes all unit tests
 * make your code base as small as possible - we won't count chars, but number of operations
 * make your code sexy - last person that thought for..each was cool retired in 00s
+* make your code efficient
 * [code quality matters!](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * if there are multiple high-quality applications, first one wins (sorted by time of last commit)
 
