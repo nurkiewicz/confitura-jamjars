@@ -13,7 +13,7 @@ So, your task is to:
 
 Having those requirements in mind, please tak a look at [pl.allegro.itm.confitura.JamJars](src/main/java/pl/allegro/itm/confitura/JamJars.java) class,
 where you should put your code. We also prepared bunch of tests to make your life easier,
-they are located in [pl.allegro.itm.confitura.JamJarsTest](src/test/java/pl/allegro/itm/confitura/JamJarsTest.java).
+they are located in [pl.allegro.itm.confitura.JamJarsTest](src/test/groovy/pl/allegro/itm/confitura/JamJarsTest.groovy).
 
 Criteria:
 
