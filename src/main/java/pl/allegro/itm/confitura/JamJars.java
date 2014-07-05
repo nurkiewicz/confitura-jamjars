@@ -1,6 +1,9 @@
 package pl.allegro.itm.confitura;
 
 import java.util.List;
+import java.util.stream.*;
+import java.util.*;
+import com.google.common.collect.*;
 
 public class JamJars {
 
